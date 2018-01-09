@@ -1,3 +1,5 @@
+package Animal;
+
 /**
  * Created by GAGAN on 08/01/2018.
  */
@@ -19,8 +21,8 @@ public class Animals {
     public void eat(){
         System.out.println("animals.eat called");
     }
-    public void move(){
-
+    public void move( int speed){
+        System.out.println("animal.move is called");
     }
 
     public String getName() {
